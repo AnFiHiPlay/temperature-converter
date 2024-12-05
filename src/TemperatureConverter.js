@@ -39,7 +39,7 @@ const ThermoController = () => {
       const timer = setTimeout(() => {
         setAlertMessage("");
       }, 5000);
-      return () => clearTimeout(timer); // Очистка таймера при обновлении
+      return () => clearTimeout(timer); // Очистка таймера при обновлении системы
     }
   }, [alertMessage]);
 
